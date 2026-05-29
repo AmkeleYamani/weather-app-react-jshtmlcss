@@ -34,6 +34,7 @@ const Weather = () => {
         }
     }
   return (
+
     <div className='container'>
         <div className='city'>
             <input type='text' value={city} onChange={handleOnChange} placeholder='Enter any city name'></input>
